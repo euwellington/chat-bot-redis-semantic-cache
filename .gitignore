@@ -20,7 +20,6 @@ dist/
 
 # Environment variables
 .env
-.env.*
 
 # IDEs
 .vscode/
