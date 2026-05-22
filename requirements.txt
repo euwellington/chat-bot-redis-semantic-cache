@@ -1,0 +1,37 @@
+# Core frameworks
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+
+# LangChain ecosystem
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# Vector store / Redis + memory (NOVO)
+langchain-redis>=0.1.0
+redis>=5.0.0
+redisvl>=0.1.0
+
+# LLM providers
+langchain-openai>=0.2.0          # OpenAI (e compatível com Grok via base_url)
+langchain-anthropic>=0.2.0       # Anthropic Claude
+langchain-google-genai>=2.0.0    # Google Gemini
+google-generativeai>=0.8.0       # SDK direto do Gemini
+
+# Grok (xAI)
+httpx>=0.27.0
+
+# Pydantic + Pydantic AI
+pydantic>=2.10.0
+pydantic-ai>=0.0.15
+pydantic-settings>=2.4.0
+
+# Utilitários
+python-dotenv>=1.0.0
+python-multipart>=0.0.12
+
+# Adicionais para streaming e processamento
+tavily-python>=0.5.0
+beautifulsoup4>=4.12.0
+aiohttp>=3.9.0
+python-dateutil>=2.8.0

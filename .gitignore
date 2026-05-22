@@ -1,0 +1,84 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Redis
+dump.rdb
+
+# SQLite
+*.sqlite3
+*.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# FastAPI / Uvicorn
+*.pid
+
+# LangChain
+.langchain.db
+
+# Node
+node_modules/
+
+# Generated files
+generated/
+uploads/
+downloads/
+
+# Docker
+*.tar
+
+# Secrets
+secrets.json
+credentials.json
+
+# Mac/Linux swap
+*.swp
+*.swo
